@@ -5,7 +5,7 @@
 			"app_key": "application.generated.ue.top-down-game-template.ue4editor.exe",
 			"launch_type": "url",
 			"url": "steam://launch/",
-			"action_manifest_path": "D:/MPLEX/GitHub/SteamVRInputTest/Config/SteamVRBindings/steamvr_manifest.json",
+			"action_manifest_path": "D:/MPLEX/GitHub/SteamVRInput-Plugin-for-Unreal/SteamVRInputTest/Config/SteamVRBindings/steamvr_manifest.json",
 			"strings":
 			{
 				"en_us":
