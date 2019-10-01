@@ -1,0 +1,35 @@
+{
+	"name": "Default bindings for Gamepads",
+	"controller_type": "gamepad",
+	"bindings":
+	{
+		"/actions/main":
+		{
+			"sources": [
+				{
+					"mode": "button",
+					"path": "/user/hand/left/input/grip",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/ResetVR"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
+					"path": "/user/hand/right/input/trigger",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/SetDestination"
+						}
+					}
+				}
+			]
+		}
+	},
+	"description": "Top Down Game Template"
+}

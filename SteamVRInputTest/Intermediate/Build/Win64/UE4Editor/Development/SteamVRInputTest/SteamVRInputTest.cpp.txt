@@ -1,0 +1,2 @@
+D:\MPLEX\GitHub\SteamVRInputTest\Intermediate\Build\Win64\UE4Editor\Development\SteamVRInputTest\Definitions.SteamVRInputTest.h
+d:\mplex\github\steamvrinputtest\source\steamvrinputtest\SteamVRInputTest.h
