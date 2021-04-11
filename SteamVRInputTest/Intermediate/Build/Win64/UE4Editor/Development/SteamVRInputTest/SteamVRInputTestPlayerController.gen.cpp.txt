@@ -1,5 +1,0 @@
-D:\MPLEX\GitHub\SteamVRInputTest\Intermediate\Build\Win64\UE4Editor\Development\SteamVRInputTest\Definitions.SteamVRInputTest.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-D:\MPLEX\GitHub\SteamVRInputTest\Source\SteamVRInputTest/SteamVRInputTestPlayerController.h
-d:\mplex\github\steamvrinputtest\intermediate\build\win64\ue4editor\inc\steamvrinputtest\SteamVRInputTestPlayerController.generated.h

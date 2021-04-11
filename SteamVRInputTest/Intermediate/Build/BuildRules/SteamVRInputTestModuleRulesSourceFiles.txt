@@ -1,3 +1,0 @@
-D:\MPLEX\GitHub\SteamVRInputTest\Source\SteamVRInputTest\SteamVRInputTest.Build.cs
-D:\MPLEX\GitHub\SteamVRInputTest\Source\SteamVRInputTest.Target.cs
-D:\MPLEX\GitHub\SteamVRInputTest\Source\SteamVRInputTestEditor.Target.cs
