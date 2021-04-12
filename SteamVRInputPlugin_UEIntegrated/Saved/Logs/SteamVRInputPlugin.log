@@ -1,8 +1,8 @@
-﻿Log file open, 04/11/21 18:35:02
+﻿Log file open, 04/12/21 10:10:52
 LogInit: Display: Running engine for game: SteamVRInputPlugin
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.191308
+LogStats: Stats thread started at 6.374495
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -194,272 +194,455 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2021.04.11-22.35.02:372][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2021.04.11-22.35.02:372][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2021.04.11-22.35.02:372][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Engine.ini]
-[2021.04.11-22.35.02:372][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2021.04.11-22.35.02:372][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Engine.ini]
-[2021.04.11-22.35.02:372][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Engine.ini]
-[2021.04.11-22.35.02:372][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2021.04.11-22.35.02:372][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2021.04.11-22.35.02:372][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2021.04.11-22.35.02:372][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2021.04.11-22.35.02:372][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2021.04.11-22.35.02:372][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2021.04.11-22.35.02:372][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2021.04.11-22.35.02:372][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2021.04.11-22.35.02:372][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2021.04.11-22.35.02:372][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2021.04.11-22.35.02:372][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2021.04.11-22.35.02:372][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2021.04.11-22.35.02:372][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2021.04.11-22.35.02:372][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2021.04.11-22.35.02:372][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Engine.ini]
-[2021.04.11-22.35.02:372][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2021.04.11-22.35.02:372][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2021.04.11-22.35.02:372][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2021.04.11-22.35.02:372][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2021.04.11-22.35.02:372][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2021.04.11-22.35.02:372][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2021.04.11-22.35.02:372][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2021.04.11-22.35.02:372][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2021.04.11-22.35.02:372][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2021.04.11-22.35.02:372][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2021.04.11-22.35.02:372][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2021.04.11-22.35.02:372][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2021.04.11-22.35.02:372][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2021.04.11-22.35.02:372][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Engine.ini]
-[2021.04.11-22.35.02:372][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Engine.ini]
-[2021.04.11-22.35.02:375][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Scalability.ini]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Scalability.ini]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Scalability.ini]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Scalability.ini]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Scalability.ini]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Scalability.ini]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.04.11-22.35.02:376][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Scalability.ini]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Scalability.ini]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.04.11-22.35.02:377][  0]LogInit: Selected Device Profile: [Windows]
-[2021.04.11-22.35.02:377][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2021.04.11-22.35.02:377][  0]LogHAL: Display: Platform has ~ 16 GB [17090895872 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2021.04.11-22.35.02:377][  0]LogInit: Going up to parent DeviceProfile []
-[2021.04.11-22.35.02:377][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Scalability.ini]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Scalability.ini]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Scalability.ini]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Scalability.ini]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.04.11-22.35.02:377][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Scalability.ini]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Scalability.ini]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Scalability.ini]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Scalability.ini]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2021.04.11-22.35.02:378][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Engine.ini]
-[2021.04.11-22.35.02:379][  0]LogInit: Computer: DESKTOP-MIKE
-[2021.04.11-22.35.02:379][  0]LogInit: User: Mike
-[2021.04.11-22.35.02:379][  0]LogInit: CPU Page size=4096, Cores=4
-[2021.04.11-22.35.02:379][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2021.04.11-22.35.02:379][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2021.04.11-22.35.02:379][  0]LogMemory: Platform Memory Stats for Windows
-[2021.04.11-22.35.02:379][  0]LogMemory: Process Physical Memory: 114.76 MB used, 114.77 MB peak
-[2021.04.11-22.35.02:379][  0]LogMemory: Process Virtual Memory: 94.36 MB used, 94.36 MB peak
-[2021.04.11-22.35.02:379][  0]LogMemory: Physical Memory: 9264.02 MB used,  7035.13 MB free, 16299.15 MB total
-[2021.04.11-22.35.02:379][  0]LogMemory: Virtual Memory: 5145.25 MB used,  134212584.00 MB free, 134217728.00 MB total
-[2021.04.11-22.35.02:383][  0]LogWindows: WindowsPlatformFeatures enabled
-[2021.04.11-22.35.02:413][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2021.04.11-22.35.02:416][  0]LogInit: Using OS detected language (en-US).
-[2021.04.11-22.35.02:416][  0]LogInit: Using OS detected locale (en-US).
-[2021.04.11-22.35.02:418][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2021.04.11-22.35.02:576][  0]LogInit: Setting process to per monitor DPI aware
-[2021.04.11-22.35.02:645][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2021.04.11-22.35.02:646][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.04.12-14.10.56:793][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.04.12-14.10.56:793][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.04.12-14.10.56:794][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Engine.ini]
+[2021.04.12-14.10.56:794][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.04.12-14.10.56:794][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Engine.ini]
+[2021.04.12-14.10.56:794][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Engine.ini]
+[2021.04.12-14.10.56:794][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.04.12-14.10.56:794][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.04.12-14.10.56:794][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.04.12-14.10.56:794][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.04.12-14.10.56:794][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.04.12-14.10.56:794][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.04.12-14.10.56:794][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.04.12-14.10.56:794][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.04.12-14.10.56:794][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.04.12-14.10.56:794][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.04.12-14.10.56:794][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.04.12-14.10.56:794][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.04.12-14.10.56:794][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.04.12-14.10.56:794][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.04.12-14.10.56:794][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Engine.ini]
+[2021.04.12-14.10.56:794][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.04.12-14.10.56:794][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.04.12-14.10.56:794][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.04.12-14.10.56:794][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.04.12-14.10.56:794][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.04.12-14.10.56:794][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.04.12-14.10.56:794][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.04.12-14.10.56:794][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.04.12-14.10.56:794][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.04.12-14.10.56:794][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.04.12-14.10.56:794][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.04.12-14.10.56:794][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.04.12-14.10.56:794][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.04.12-14.10.56:794][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Engine.ini]
+[2021.04.12-14.10.56:794][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Engine.ini]
+[2021.04.12-14.10.56:853][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Scalability.ini]
+[2021.04.12-14.10.56:853][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.04.12-14.10.56:853][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.04.12-14.10.56:853][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Scalability.ini]
+[2021.04.12-14.10.56:853][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.04.12-14.10.56:853][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Scalability.ini]
+[2021.04.12-14.10.56:853][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.12-14.10.56:853][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.04.12-14.10.56:853][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Scalability.ini]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Scalability.ini]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Scalability.ini]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.04.12-14.10.56:854][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.04.12-14.10.56:855][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.12-14.10.56:855][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.12-14.10.56:855][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.12-14.10.56:855][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Scalability.ini]
+[2021.04.12-14.10.56:855][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.04.12-14.10.56:855][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.04.12-14.10.56:855][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Scalability.ini]
+[2021.04.12-14.10.56:855][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.04.12-14.10.56:855][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.04.12-14.10.56:855][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.04.12-14.10.56:855][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.04.12-14.10.56:855][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.04.12-14.10.56:855][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.04.12-14.10.56:855][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.04.12-14.10.56:859][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.12-14.10.56:859][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.04.12-14.10.56:865][  0]LogHAL: Display: Platform has ~ 16 GB [17090895872 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.04.12-14.10.56:872][  0]LogInit: Going up to parent DeviceProfile []
+[2021.04.12-14.10.56:872][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Scalability.ini]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Scalability.ini]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Scalability.ini]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Scalability.ini]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Scalability.ini]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.04.12-14.10.56:872][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Scalability.ini]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Scalability.ini]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Scalability.ini]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.04.12-14.10.56:873][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Config/Windows/Engine.ini]
+[2021.04.12-14.10.56:883][  0]LogInit: Computer: DESKTOP-MIKE
+[2021.04.12-14.10.56:883][  0]LogInit: User: Mike
+[2021.04.12-14.10.56:883][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.04.12-14.10.56:883][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.04.12-14.10.56:883][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.04.12-14.10.56:883][  0]LogMemory: Platform Memory Stats for Windows
+[2021.04.12-14.10.56:883][  0]LogMemory: Process Physical Memory: 114.18 MB used, 114.18 MB peak
+[2021.04.12-14.10.56:883][  0]LogMemory: Process Virtual Memory: 94.38 MB used, 94.38 MB peak
+[2021.04.12-14.10.56:883][  0]LogMemory: Physical Memory: 5042.83 MB used,  11256.32 MB free, 16299.15 MB total
+[2021.04.12-14.10.56:883][  0]LogMemory: Virtual Memory: 5145.25 MB used,  134212584.00 MB free, 134217728.00 MB total
+[2021.04.12-14.10.56:945][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.04.12-14.10.57:756][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.04.12-14.10.57:775][  0]LogInit: Using OS detected language (en-US).
+[2021.04.12-14.10.57:775][  0]LogInit: Using OS detected locale (en-US).
+[2021.04.12-14.10.57:855][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.04.12-14.10.58:339][  0]LogInit: Setting process to per monitor DPI aware
+[2021.04.12-14.10.59:522][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.04.12-14.10.59:522][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.04.12-14.11.09:281][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2021.04.12-14.11.09:281][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.04.12-14.11.09:281][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.04.12-14.11.09:281][  0]LogD3D11RHI: D3D11 adapters:
+[2021.04.12-14.11.09:380][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2021.04.12-14.11.09:380][  0]LogD3D11RHI:       8088/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.04.12-14.11.09:383][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.04.12-14.11.09:383][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.04.12-14.11.09:383][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.04.12-14.11.09:403][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.04.12-14.11.09:403][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2021.04.12-14.11.09:403][  0]LogWindows: EnumDisplayDevices:
+[2021.04.12-14.11.09:403][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2021.04.12-14.11.09:403][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.04.12-14.11.09:404][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.04.12-14.11.09:404][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.04.12-14.11.09:404][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.04.12-14.11.09:404][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2021.04.12-14.11.09:404][  0]LogD3D11RHI:   Driver Version: 456.71 (internal:27.21.14.5671, unified:456.71)
+[2021.04.12-14.11.09:404][  0]LogD3D11RHI:      Driver Date: 9-30-2020
+[2021.04.12-14.11.09:404][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2021.04.12-14.11.09:464][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.04.12-14.11.09:465][  0]LogD3D11RHI: Async texture creation enabled
+[2021.04.12-14.11.09:465][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.04.12-14.11.09:756][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.04.12-14.11.10:386][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.04.12-14.11.10:448][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.04.12-14.11.10:448][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.04.12-14.11.10:448][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.04.12-14.11.10:448][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.04.12-14.11.10:448][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.04.12-14.11.10:448][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.04.12-14.11.10:448][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.04.12-14.11.10:448][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.04.12-14.11.10:448][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.04.12-14.11.10:448][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.04.12-14.11.10:571][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.04.12-14.11.10:571][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.04.12-14.11.10:640][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.04.12-14.11.10:640][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.04.12-14.11.10:683][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.04.12-14.11.10:683][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.04.12-14.11.10:728][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.04.12-14.11.10:766][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.04.12-14.11.10:803][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.04.12-14.11.10:842][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.04.12-14.11.10:883][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'XXX'
+[2021.04.12-14.11.10:883][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.04.12-14.11.11:066][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.04.12-14.11.11:861][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Intermediate/Shaders/WorkingDirectory/8808/).
+[2021.04.12-14.11.11:862][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Mike/AppData/Local/Temp/UnrealShaderWorkingDir/E7FFE81E4924EBE13EC338BE06F17271/'.
+[2021.04.12-14.11.11:867][  0]LogXGEController: Cleaning working directory: C:/Users/Mike/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.04.12-14.11.11:867][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.04.12-14.11.11:867][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.04.12-14.11.11:867][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.04.12-14.11.18:652][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.04.12-14.11.18:840][  0]LogDerivedDataCache: Loaded boot cache 0.19s 75MB D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/DerivedDataCache/Boot.ddc.
+[2021.04.12-14.11.18:840][  0]LogDerivedDataCache: Display: Loaded Boot cache: D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/DerivedDataCache/Boot.ddc
+[2021.04.12-14.11.18:840][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.04.12-14.11.18:840][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.04.12-14.11.18:840][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.04.12-14.11.18:840][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2021.04.12-14.11.18:841][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2021.04.12-14.11.18:841][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.04.12-14.11.18:841][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.04.12-14.11.19:779][  0]LogSlate: Using FreeType 2.10.0
+[2021.04.12-14.11.19:842][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.04.12-14.11.20:933][  0]LogAssetRegistry: FAssetRegistry took 0.0053 seconds to start up
+[2021.04.12-14.11.33:680][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.12-14.11.35:729][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.04.12-14.11.35:729][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.04.12-14.11.35:729][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.04.12-14.11.35:730][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.04.12-14.11.35:730][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.04.12-14.11.36:207][  0]LogNetVersion: SteamVRInputPlugin 1.0.0, NetCL: 0, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1396437467)
+[2021.04.12-14.11.54:451][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000027BD7966980), frame # 0
+[2021.04.12-14.11.54:451][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027BD7812AC0), frame # 0
+[2021.04.12-14.11.54:461][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027BD785DA00), frame # 0
+[2021.04.12-14.11.54:758][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.069506 seconds
+[2021.04.12-14.11.54:777][  0]LogUObjectArray: 15910 objects as part of root set at end of initial load.
+[2021.04.12-14.11.54:777][  0]LogUObjectAllocator: 3963728 out of 0 bytes used by permanent object pool.
+[2021.04.12-14.11.54:777][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.04.12-14.11.59:888][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.04.12-14.11.59:948][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.04.12-14.12.00:794][  0]SourceControl: Source control is disabled
+[2021.04.12-14.12.00:798][  0]SourceControl: Source control is disabled
+[2021.04.12-14.12.00:870][  0]SourceControl: Source control is disabled
+[2021.04.12-14.12.00:903][  0]SourceControl: Source control is disabled
+[2021.04.12-14.12.00:982][  0]SourceControl: Source control is disabled
+[2021.04.12-14.12.04:027][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.04.12-14.12.04:200][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.12-14.12.04:200][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.12-14.12.04:664][  0]LogOcInput: OculusInput pre-init called
+[2021.04.12-14.12.04:777][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.04.12-14.12.04:778][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.04.12-14.12.05:885][  0]LogEngine: Initializing Engine...
+[2021.04.12-14.12.05:944][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2021.04.12-14.12.05:944][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.04.12-14.12.05:984][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.010 s
+[2021.04.12-14.12.07:191][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.04.12-14.12.07:632][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.04.12-14.12.07:632][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027BDF34FC00), frame # 0
+[2021.04.12-14.12.07:632][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027BDF3A4B80), frame # 0
+[2021.04.12-14.12.07:739][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.12-14.12.07:739][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.12-14.12.07:739][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.12-14.12.07:739][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.12-14.12.07:739][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.12-14.12.07:739][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.12-14.12.07:739][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.12-14.12.07:739][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.12-14.12.07:770][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.12-14.12.07:770][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.12-14.12.07:859][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.12-14.12.07:859][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.04.12-14.12.07:945][  0]LogAudioMixer: Display: Using Audio Device BenQ PD2710QC (NVIDIA High Definition Audio)
+[2021.04.12-14.12.07:976][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.12-14.12.08:051][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.12-14.12.08:051][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.12-14.12.08:068][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.12-14.12.08:069][  0]LogInit: FAudioDevice initialized.
+[2021.04.12-14.12.08:075][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.04.12-14.12.08:144][  0]LogDerivedDataCache: Saved boot cache 0.07s 75MB D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/DerivedDataCache/Boot.ddc.
+[2021.04.12-14.12.08:145][  0]LogInit: Texture streaming: Enabled
+[2021.04.12-14.12.08:297][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.04.12-14.12.08:297][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={B427CAFC-4FE2-955B-6C70-54AB97CA6FB7}
+[2021.04.12-14.12.08:297][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.04.12-14.12.08:314][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.04.12-14.12.08:483][  0]LogInit: Transaction tracking system initialized
+[2021.04.12-14.12.08:807][  0]BlueprintLog: New page: Editor Load
+[2021.04.12-14.12.09:933][  0]LocalizationService: Localization service is disabled
+[2021.04.12-14.12.17:543][  0]LogFileCache: Scanning file cache for directory 'D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Content/' took 0.01s
+[2021.04.12-14.12.17:543][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.04.12-14.12.17:569][  0]LogCook: Display: Mobile HDR setting 1
+[2021.04.12-14.12.23:978][  0]SourceControl: Source control is disabled
+[2021.04.12-14.12.23:984][  0]LogUnrealEdMisc: Loading editor; pre map load, took 129.848
+[2021.04.12-14.12.23:997][  0]Cmd: MAP LOAD FILE="D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Content/Sample/Maps/SteamVRHands_SampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.04.12-14.12.24:004][  0]LightingResults: New page: Lighting Build
+[2021.04.12-14.12.24:085][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.04.12-14.12.24:110][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.12-14.12.24:138][  0]MapCheck: New page: Map Check
+[2021.04.12-14.12.24:138][  0]LightingResults: New page: Lighting Build
+[2021.04.12-14.12.24:410][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027BDF34FC00), frame # 0
+[2021.04.12-14.12.24:410][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027BDF3A4B80), frame # 0
+[2021.04.12-14.12.24:411][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2021.04.12-14.12.27:867][  0]LogAIModule: Creating AISystem for world SteamVRHands_SampleMap
+[2021.04.12-14.12.27:867][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027BCD357E00), frame # 0
+[2021.04.12-14.12.27:867][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027BECBB5580), frame # 0
+[2021.04.12-14.12.28:014][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Sample/Maps/Common/BaseSampleMap) is flushing async loading
+[2021.04.12-14.12.28:014][  0]LogStreaming: Display: Flushing async loaders.
+[2021.04.12-14.12.29:007][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.04.12-14.12.29:101][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2021.04.12-14.12.29:103][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.04.12-14.12.29:111][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 8.147ms to complete.
+[2021.04.12-14.12.29:111][  0]LogFileHelpers: Loading map 'SteamVRHands_SampleMap' took 5.115
+[2021.04.12-14.12.29:837][  0]LogUnrealEdMisc: Total Editor Startup Time, took 135.701
+[2021.04.12-14.12.30:468][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.12-14.12.30:490][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.12-14.12.30:498][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.12-14.12.30:507][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.12-14.12.30:596][  0]LogCollectionManager: Loaded 0 collections in 0.001097 seconds
+[2021.04.12-14.12.30:706][  0]LogFileCache: Scanning file cache for directory 'D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Saved/Collections/' took 0.00s
+[2021.04.12-14.12.30:706][  0]LogFileCache: Scanning file cache for directory 'D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Content/Developers/Mike/Collections/' took 0.00s
+[2021.04.12-14.12.30:706][  0]LogFileCache: Scanning file cache for directory 'D:/Github/SteamVRInput-Plugin-for-Unreal/SteamVRInputPlugin_UEIntegrated/Content/Collections/' took 0.00s
+[2021.04.12-14.12.30:706][  0]LogContentBrowser: Native class hierarchy populated in 0.0238 seconds. Added 3426 classes and 819 folders.
+[2021.04.12-14.12.30:748][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.04.12-14.12.32:660][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.04.12-14.12.32:728][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2021.04.12-14.12.33:466][  0]LogSlate: Took 0.020091 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.04.12-14.12.33:488][  0]LogSlate: Took 0.020186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.04.12-14.12.33:524][  0]LogSlate: Took 0.019257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.04.12-14.12.33:907][  0]LogRenderer: Reallocating scene render targets to support 1216x572 Format 10 NumSamples 1 (Frame:1).
+[2021.04.12-14.12.34:373][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.04.12-14.12.34:373][  0]LogLoad: (Engine Initialization) Total time: 140.24 seconds
+[2021.04.12-14.12.34:373][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.04.12-14.12.34:541][  0]LogAssetRegistry: Asset discovery search completed in 73.6098 seconds
+[2021.04.12-14.12.34:550][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
+[2021.04.12-14.12.34:557][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.04.12-14.12.34:699][  0]LogSlate: Took 0.014702 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.04.12-14.17.02:835][803]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{f115d00b-b421-4b45-809b-15f927db08f5}.
+[2021.04.12-14.17.02:835][803]LogTemp: Resetting audio stream to device id 
+[2021.04.12-14.17.03:403][803]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.12-14.17.03:403][803]LogAudioMixer: Display: 1: FrontRight
