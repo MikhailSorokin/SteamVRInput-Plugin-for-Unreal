@@ -34,6 +34,9 @@ Engine/Plugins/Marketplace/
 # Proprietary PS4
 Engine/**/PS4/
 
+# We want Assets
+!*.uasset
+
 # C/C++ source files
 !*.c
 !*.cc
@@ -211,9 +214,6 @@ enc_temp_folder/
 
 # Add exception for GAD Logo
 !/Engine/Content/Editor/Slate/Icons/GADAppIcon.png
-
-# Ignore content folders
-Content/
 
 # Ignore DDC
 /Engine/DerivedDataCache/**
